@@ -1,7 +1,7 @@
 **Classification Models**
 1. ProtoNet+Bert (optimized for fewshot, can achieve better performance on some small dataset)
-2. An algorithm from Shenyuan (optimized for matching tasks, do not train this for normal classification tasks, just for experimental purporse)
-3. Ordinary Bert classification (for normal dataset, also works for fewshot thanks to the strength of BERT pretraining)
+2. Ordinary Bert classification (for normal dataset, also works for fewshot thanks to the strength of BERT pretraining)
+3. A Mysterious Algorithm from my colleague (optimized for matching tasks, do not train this for normal classification tasks, just for experimental purporse, just for fun)
 
 
 **Usage:**
