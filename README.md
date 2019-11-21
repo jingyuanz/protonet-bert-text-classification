@@ -26,7 +26,7 @@ all kinds of settings can be re-defined here, overriding what's in config.py. ty
 **Requirements:**
 pytorch, transformers, pytorch_pretrained_bert, keras, sklearn, etc..
 
-**Note**
+**Note:**
 Recommended hyperparameters are left as they are in conf/config.py except those that are task specific. All experiments are using bert-chinese-base, not tested for other languages, but you can always try it (remember to change bert_type in config).
 
 **-------------------------------------------------------------------------------------------------------**
