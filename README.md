@@ -23,7 +23,8 @@ all kinds of settings can be re-defined here, overriding what's in config.py. ty
 4. choose to run from three shell script on your demand
 5. predict with the other three shell scripts, don't forget to check all kinds of load paths before running
 
-
+**Requirements:**
+pytorch, transformers, pytorch_pretrained_bert, keras, sklearn, etc..
 
 
 
@@ -31,6 +32,6 @@ all kinds of settings can be re-defined here, overriding what's in config.py. ty
 | ------ | ------ |------ |------ |------ |------ |
 | Intent Classification (downsampled to 1%)  | **80.8%** | 77.9% | ≈60*15 | True | 15 |
 | Intent Classification | >93.7%(too low to train) | **94.6%**(?) | ≈6000*15 | True | 15|
-| Performance Evaluation Classification | 86.9% | **87.2%** | 3200 | False | 86|
-| Key Experience Classification | **84.9%** | 84.3% | 1300 | False | 20|
+| Anonymous Dataset 1 | 86.9% | **87.2%** | 3200 | False | 86|
+| Anonymous Dataset 2 | **84.9%** | 84.3% | 1300 | False | 20|
 
