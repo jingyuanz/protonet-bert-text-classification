@@ -17,7 +17,7 @@
         *  for ProtoNet: n_support, eval_n_support (number of supporting samples for each class, read the paper on ProtoNet for more details),
             you can just leave them unchanged, the bigger the better, but may exceeds GPU memory limits, 
             especially at evaluation time, when number of classes is big.
-        *  general settings: learning rate, warmup, paths to some essential data/modelfiles
+        *  general settings: learning rate, warmup, paths to essential data/modelfiles, device, etc..
 3b. Alternatively, if you are sick of modifying the config file, or you want to train multiple models with different configs, you can just use <*python scripts/api.py*> directly,
 all kinds of settings can be re-defined here, overriding what's in config.py. type <*python scripts/api.py -h*> for more details.
 4. choose to run from three shell script on your demand
@@ -25,6 +25,11 @@ all kinds of settings can be re-defined here, overriding what's in config.py. ty
 
 **Requirements:**
 pytorch, transformers, pytorch_pretrained_bert, keras, sklearn, etc..
+
+**Note**
+Recommended hyperparameters are left as they are in conf/config.py except those that are task specific. All experiments are using bert-chinese-base, not tested for other languages, but you can always try it (remember to change bert_type in config).
+
+**-------------------------------------------------------------------------------------------------------**
 
 
 
