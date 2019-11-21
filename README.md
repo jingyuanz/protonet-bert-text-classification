@@ -32,7 +32,12 @@ pytorch, transformers, pytorch_pretrained_bert, keras, sklearn, etc..
 **Note:**
 Recommended hyperparameters are left as they are in conf/config.py except those that are task specific. All experiments are using bert-chinese-base, not tested for other languages, but you can always try it (remember to change bert_type in config).
 
+**TODO:**
+1. support unlimited number of supports at evaluation/prediction time
+2. support Meta-Learning
+3. replace Euclidean distance with RE2 and BCEloss
 **-------------------------------------------------------------------------------------------------------**
+
 
 
 
