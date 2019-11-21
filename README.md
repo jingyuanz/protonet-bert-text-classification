@@ -1,3 +1,5 @@
+**This project targets problems of insufficient data in text classification tasks. By using some few-shot learning tricks (ProtoNet, etc.), performance on tasks sees improvement, and has potential to furthur improve as the convergence speed for ProtoNet+bert is much slower than normal Bert finetuning, and GPU memory is a key limitation on its improvement (cannot set very high number of supports at evaluation time, #TODO to fix this in the future)**
+
 **Classification Models**
 1. ProtoNet+Bert (optimized for fewshot, can achieve better performance on some small dataset)
 2. Ordinary Bert classification (for normal dataset, also works for fewshot thanks to the strength of BERT pretraining)
