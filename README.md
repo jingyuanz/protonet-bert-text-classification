@@ -36,7 +36,9 @@ Recommended hyperparameters are left as they are in conf/config.py except those 
 1. support unlimited number of supports at evaluation/prediction time
 2. support Meta-Learning
 3. replace Euclidean distance with RE2 and BCEloss
-**-------------------------------------------------------------------------------------------------------**
+
+
+**-------------------------------------------------------------------------------------------------------:**
 
 
 
