@@ -45,7 +45,7 @@ Recommended hyperparameters are left as they are in conf/config.py except those 
 
 |        | ProtoNet+Bert | Bert | Training size| Test size | Balanced | Class Count|
 | ------ | ------ |------ |------ |------ |------ |------ |
-| Intent Classification (downsampled to 1%)  | **80.8%** | 77.9% | ≈60*15 | 1333 | True | 15 |
+| Intent Classification (downsampled to 1%)  | **88.3%** | 77.9% | ≈60*15 | 1333 | True | 15 |
 | Intent Classification | >93.7%(too low to train) | **94.6%**(?) | ≈6000*15 | 1333 | True | 15|
 | Anonymous Dataset 1 | 86.9% | **87.2%** | 3200 | 352 | False | 86|
 | Anonymous Dataset 2 | **84.9%** | 84.3% | 1300 | 434 | False | 20|
