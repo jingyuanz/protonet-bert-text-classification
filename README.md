@@ -10,7 +10,7 @@
 **Usage:**
 1. put your data into ./data folder
 2. write your own script (or use some pre-given function in data_formatter.py)
-    to format your training/evaluation data into "<sentence>$TAB$<label>"(text of sentence and its label separated by tab) per line
+    to format your training/evaluation data into "sentence and its label separated by tab" per line
 3a. modify configuration in conf/config.py under the Config class for your chosen model,
     *  Mandatory settings:
         *  for Bert classifier: set number of classes and max sentence length,
