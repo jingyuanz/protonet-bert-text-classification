@@ -11,7 +11,7 @@
 1. put your data into ./data folder
 2. write your own script (or use some pre-given function in data_formatter.py)
     to format your training/evaluation data into "sentence and its label separated by tab" per line
-3a. modify configuration in conf/config.py under the Config class for your chosen model,
+3. modify configuration in conf/config.py under the Config class for your chosen model,
     *  Mandatory settings:
         *  for Bert classifier: set number of classes and max sentence length,
         *  for ProtoNet: set "k" and "shot", k must be between 20% to 100% of total number of classes, shot commonly between 2 and 10 depending on datasize
@@ -21,7 +21,7 @@
             you can just leave them unchanged, the bigger the better, but may exceeds GPU memory limits, 
             especially at evaluation time, when number of classes is big.
         *  general settings: learning rate, warmup, paths to essential data/modelfiles, device, etc..
-3b. Alternatively, if you are sick of modifying the config file, or you want to train multiple models with different configs, you can just use <*python scripts/api.py*> directly,
+3. Alternatively, if you are sick of modifying the config file, or you want to train multiple models with different configs, you can just use <*python scripts/api.py*> directly,
 all kinds of settings can be re-defined here, overriding what's in config.py. type <*python scripts/api.py -h*> for more details.
 4. choose to run from three shell script on your demand
 5. predict with the other three shell scripts, don't forget to check all kinds of load paths before running
